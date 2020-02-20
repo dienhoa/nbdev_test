@@ -13,8 +13,8 @@ docs: $(SRC)
 	nbdev_build_docs
 	touch docs
 
-test:
-	nbdev_test_nbs
+#test:
+#	nbdev_test_nbs
 
 release: pypi
 	nbdev_bump_version
